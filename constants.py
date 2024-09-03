@@ -15,3 +15,8 @@ class RoofStyles:
     FLAT = 0
     SLOPE = 1
     SPIKE = 2
+
+class Generation:
+    BUIDLING_COUNT = 80
+    DARKEST_VALUE = 90
+    LIGHTEST_VALUE = 179

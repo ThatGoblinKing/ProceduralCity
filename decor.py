@@ -30,4 +30,6 @@ class SpikedRoof(Roof):
         tierHeight = self.height * .1
 
         pygame.draw.rect(screen, self.color, (self.bottomLeftPos.x, self.bottomLeftPos.y,self.width, tierHeight))
-        pygame.draw.rect(screen, (255,255,255), (self.bottomLeftPos.x + (self.width - (self.width * .4) * 1.75), self.bottomLeftPos.y - tierHeight * 2,self.width*.4, tierHeight * 2))
+        pygame.draw.rect(screen, self.color, (self.bottomLeftPos.x + (self.width * .1), self.bottomLeftPos.y - tierHeight,self.width*.8, tierHeight * 1))
+        pygame.draw.rect(screen, self.color, (self.bottomLeftPos.x + (self.width * .2), self.bottomLeftPos.y - tierHeight * 3,self.width*.6, tierHeight * 2))
+        pygame.draw.rect(screen, self.color, (self.bottomLeftPos.x + (self.width * (.93/2)), self.bottomLeftPos.y - tierHeight * 8,self.width*.07, tierHeight * 5))
